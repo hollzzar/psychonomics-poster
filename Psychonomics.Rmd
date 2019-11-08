@@ -15,6 +15,7 @@ affiliation:
   - address: Department of Psychology \& Center for Language Science, The Pennsylvania State University
 column_numbers: 3
 logoright_name: "Logo_PSU_white.png"
+logoleft_name: "qr_code.png"
 titlebox_borderwidth: "0.5cm"
 sectitle_borderwidth: "1mm"
 titlebox_bordercol: "#001E44"
@@ -143,7 +144,7 @@ knitr::kable(stim_table) %>%
 ```{r location, out.width='100%', echo=FALSE, dpi=300, fig.align='center'}
 library(magick)
 #Load map image and trim white space
-dialect_map <- image_read("/Users/hollyzaharchuk/Mirror/DM_analysis_scripts/poster/Psychonomics/dialect_map_caption.png")
+dialect_map <- image_read("/Users/hollyzaharchuk/Mirror/DM_analysis_scripts/poster/Psychonomics_poster/dialect_map_caption.png")
 dialect_map <- image_trim(dialect_map)
 dialect_map
 ```
