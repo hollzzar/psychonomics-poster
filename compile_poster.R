@@ -1,2 +1,4 @@
-setwd("/Users/hollyzaharchuk/Mirror/DM_analysis_scripts/poster/Psychonomics_poster")
-pagedown::chrome_print("file://localhost/Users/hollyzaharchuk/Mirror/DM_analysis_scripts/poster/Psychonomics_poster/Psychonomics.html")
+setwd("/Users/hollyzaharchuk/Mirror/DM_analysis_scripts/posters/Psychonomics_poster")
+path <- "file://localhost/Users/hollyzaharchuk/Mirror/DM_analysis_scripts/posters/Psychonomics_poster/"
+file <- paste0(path, "Psychonomics.html")
+pagedown::chrome_print(file)
