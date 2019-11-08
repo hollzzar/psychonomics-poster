@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="generator" content="pandoc" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!--
+Font-awesome icons ie github or twitter
+-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/brands.css" integrity="sha384-n9+6/aSqa9lBidZMRCQHTHKJscPq6NW4pCQBiMmHdUCvPN8ZOg2zJJTkC7WIezWv" crossorigin="anonymous">
+
+<!--
+Google fonts api stuff
+-->
+<link href='https://fonts.googleapis.com/css?family=Avenir' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Avenir' rel='stylesheet'>
+
+
+
+<title>Auditory comprehension of double versus single modal constructions in Mainstream American English listeners</title>
+
+<script src="Psychonomics_files/kePrint-0.0.1/kePrint.js"></script>
+
+
+
+
+<style>
+@page {
+size: 48in 36in;
+margin: 0;
+padding: 0;
+}
+body {
+margin: 0;
+font-size: 30pt;
+width: 48in;
+height: 36in;
+padding: 0;
+text-align: justify;
+font-family: Avenir;
+}
+.poster_wrap {
+width: 48in;
+height: 36in;
+padding: 0cm;
+}
+.title_container {
+width: calc(100% - 0.5cm - 0.5cm);
+height: calc(15% - 0.5cm - 0.5cm);
+overflow: hidden;
+background-color: #001E44;
+border: 0.5cm solid #001E44;
+}
+.logo_left {
+float: left;
+width: 10%;
+height: 100%;
+background-color: #001E44;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.logo_right {
+float: right;
+width: 10%;
+height: 100%;
+background-color: #001E44;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.poster_title {
+text-align: center;
+position: relative;
+float: left;
+width: 80%;
+height: 100%;
+color: #FFFFFF;
+top: 50%;
+transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+}
+#title {
+font-family: Avenir;
+}
+/* unvisited link */
+a:link {
+color: #016c59;
+text-decoration: none;
+}
+.mybreak {
+  break-before: column;
+}
+/* visited link */
+a:visited {
+color: #016c59;
+text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+color: #016c59;
+text-decoration: none;
+}
+
+/* selected link */
+a:active {
+color: #016c59;
+text-decoration: none;
+}
+.poster_body {
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+-moz-column-count: 3; /* Firefox */
+column-count: 3;
+-webkit-column-fill: auto;
+-moz-column-fill: auto;
+column-fill: auto;
+-webkit-column-rule-width: 2mm;
+-moz-column-rule-width: 2mm;
+column-rule-width: 2mm;
+-webkit-column-rule-style: solid;
+-moz-column-rule-style: solid;
+column-rule-style: solid;
+-webkit-column-rule-color: #d7d8db;
+-moz-column-rule-color: #d7d8db;
+column-rule-color: #d7d8db;
+column-gap: 1em;
+padding-left: 0.5em;
+padding-right: 0.5em;
+height: 100%;
+color: #000000
+background-color: #ffffff;
+}
+.poster_title h1 {
+font-size: 75pt;
+margin: 0;
+border: 0;
+font-weight: normal;
+}
+.poster_body_wrap{
+width: 48in;
+height: calc(36in * 0.83);
+padding-top: calc(36in * 0.01);
+padding-bottom: calc(36in * 0.01);
+background-color: #ffffff;
+}
+.poster_title h3 {
+color: #FFFFFF;
+font-size: 50pt;
+margin: 0;
+border: 0;
+font-weight: normal;
+}
+.poster_title h3 > sup {
+  font-size: 35pt;
+  margin-left: 0.02em;
+}
+.poster_title h5 {
+color: #FFFFFF;
+font-size: 35pt;
+border: 0;
+margin: 0;
+margin-top: 5mm;
+font-weight: normal;
+}
+img {
+margin-top: 0;
+margin-bottom: 0;
+}
+.section {
+  padding: 0.2em;
+}
+.poster_body h1 {
+text-align: center;
+color: #FFFFFF;
+font-size: 45pt;
+border: 1mm solid #001E44;
+background-color: #001E44;
+border-radius: 3mm 0mm;
+margin-top: 2mm;
+margin-bottom: 2mm;
+font-weight: normal;
+}
+.poster_body h2 {
+text-align: center;
+color: #000000;
+font-size: 45pt;
+border: 1mm solid #016c5920;
+background-color: #016c5920;
+border-radius: 3mm 0mm;
+margin-top: 2mm;
+margin-bottom: 2mm;
+font-weight: normal;
+}
+.poster_body h3 {
+color: #000000;
+font-size: 40pt;
+padding-left: 4mm;
+font-weight: normal;
+}
+.span {
+width: 200%;
+}
+/* center align leaflet map,
+from https://stackoverflow.com/questions/52112119/center-leaflet-in-a-rmarkdown-document */
+.html-widget {
+margin: auto;
+position: sticky;
+margin-top: 2cm;
+margin-bottom: 2cm;
+}
+.leaflet.html-widget.html-widget-static-bound.leaflet-container.leaflet-touch.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
+position: sticky;
+width: 100%;
+}
+div.sourceCode {
+font-size: 20pt;
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+padding: 1em;
+border: 1mm solid;
+border-color: #008080;
+border-radius: 1em;
+}
+pre.sourceCode.r {
+width: 100%;
+/* align-items: center; */
+margin: auto;
+}
+code.sourceCode.r{
+background-color: transparent;
+color: #000000
+}
+.caption {
+font-size: 20pt;
+}
+.table caption {
+font-size: 20pt;
+padding-bottom: 3mm;
+
+}
+code {
+font-size: 1em;
+font-family: monospace;
+background-color: #016c592024;
+color: #001E44;
+padding: 1.2mm;
+border-radius: 2mm;
+}
+.poster_title code {
+font-size: 1em;
+}
+table {
+font-size: 40px;
+margin: auto;
+border-top: 3px solid #666;
+border-bottom: 3px solid #666;
+}
+table thead th {
+border-bottom: 3px solid #ddd;
+}
+td {
+padding: 8px;
+}
+th {
+padding: 15px;
+}
+caption {
+margin-bottom: 10px;
+}
+.poster_body p {
+margin-right: 4mm;
+margin-left: 4mm;
+margin-top: 1mm;
+margin-bottom: 1mm;
+text-indent: -14px;
+color: #000000
+}
+.poster_body ol {
+margin-right: 4mm;
+margin-left: 4mm;
+}
+#ul {
+margin-right: 4mm;
+margin-left: 4mm;
+}
+.references p {
+font-size: 2.5pt;
+}
+.orcid img {
+  width: 1em;
+}
+</style>
+</head>
+<body>
+
+
+<div class="poster_wrap">
+<div class="title_container">
+<!-- Left Logo  -->
+<div class="logo_left">
+</div>
+<!-- Poster Title -->
+<div class= "poster_title">
+<h1 id="title">Auditory comprehension of double versus single modal constructions in Mainstream American English listeners</h1>
+<h3 id="author">Holly A. Zaharchuk<sup></sup>, Adrianna Shevlin<sup></sup>, Janet G. van Hell<sup></sup></h3>
+<h5 id="affiliation"><sup></sup> Department of Psychology &amp; Center for Language Science, The Pennsylvania State University</h5>
+</div>
+<!-- Right Logo  -->
+<div class="logo_right">
+<img src=Logo_PSU_white.png style="width: 80%">
+</div>
+</div>
+
+<div class='poster_body_wrap'>
+<div class='poster_body'>
+<div id="background" class="section level1">
+<h1>Background</h1>
+<div id="how-do-listeners-process-dialectal-variation" class="section level3">
+<h3>How do listeners process dialectal variation?</h3>
+<ul>
+<li>Dialectal (regional, social, or ethnocultural) variation is inherent to language</li>
+<li>Theories of language processing are limited in their explanatory power of everyday speech without including variation</li>
+<li>Neurocognitive studies of dialect tend to focus on phonological (acoustic) or lexical (word-based) rather than syntactic (structural) variation</li>
+<li>Syntactic processing research with EEG typically relies written stimuli containing grammatical violations or ambiguities</li>
+<li><strong>Double modals</strong>: indirectness or hedging <font size=5><span class="citation">(Hasty, 2012; Mishoe &amp; Montgomery, 1994)</span></font></li>
+</ul>
+</div>
+</div>
+<div id="stimuli" class="section level1">
+<h1>Stimuli</h1>
+<table class="table" style="font-size: 35px; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Condition
+</th>
+<th style="text-align:left;">
+Context sentence
+</th>
+<th style="text-align:left;">
+Type
+</th>
+<th style="text-align:left;">
+Experimental sentence
+</th>
+<th style="text-align:left;">
+ERP prediction
+</th>
+<th style="text-align:left;">
+Offline prediction
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;vertical-align: middle !important;" rowspan="3">
+Critical
+</td>
+<td style="text-align:left;vertical-align: middle !important;" rowspan="3">
+“Kaitlyn is having a hard time with her essay.”
+</td>
+<td style="text-align:left;">
+Standard single modal
+</td>
+<td style="text-align:left;">
+“She thinks she <strong><em>should</em></strong> ask the professor for an extension.”
+</td>
+<td style="text-align:left;">
+Baseline
+</td>
+<td style="text-align:left;">
+Baseline
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Attested double modal
+</td>
+<td style="text-align:left;">
+“She thinks she <em>might <strong>should</strong></em> ask the professor for an extension.”
+</td>
+<td style="text-align:left;">
+(N400-)P600
+</td>
+<td style="text-align:left;vertical-align: middle !important;" rowspan="2">
+Pattern together
+</td>
+</tr>
+<tr>
+<td style="text-align:left;border-top: 5px solid #d7d8db">
+Unattested double modal
+</td>
+<td style="text-align:left;border-top: 5px solid #d7d8db">
+“She thinks she <em>could <strong>should</strong></em> ask the professor for an extension.”
+</td>
+<td style="text-align:left;border-top: 5px solid #d7d8db">
+Not applicable
+</td>
+</tr>
+<tr>
+<td style="text-align:left;border-top: 5px solid #d7d8db; border-bottom: 5px solid #d7d8db">
+Filler
+</td>
+<td style="text-align:left;border-top: 5px solid #d7d8db; border-bottom: 5px solid #d7d8db">
+“Kaitlyn waits for the bus every morning to go to work.”
+</td>
+<td style="text-align:left;border-top: 5px solid #d7d8db; border-bottom: 5px solid #d7d8db">
+</td>
+<td style="text-align:left;border-top: 5px solid #d7d8db; border-bottom: 5px solid #d7d8db">
+“She said <em>the that</em> bus is usually late.”
+</td>
+<td style="text-align:left;border-top: 5px solid #d7d8db; border-bottom: 5px solid #d7d8db">
+Not analyzed
+</td>
+<td style="text-align:left;border-top: 5px solid #d7d8db; border-bottom: 5px solid #d7d8db">
+Not applicable
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; border: 0;" colspan="100%">
+<sup></sup> ERP time-locked to second modal (could or should) in double modal sentences to compare to standard single modal
+</td>
+</tr>
+</tfoot>
+</table>
+</div>
+<div id="participants" class="section level1">
+<h1>Participants</h1>
+<table class="table" style="font-size: 35px; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Group
+</th>
+<th style="text-align:left;">
+Exposure and familiarity
+</th>
+<th style="text-align:left;">
+Stage
+</th>
+<th style="text-align:left;">
+Results presented
+</th>
+<th style="text-align:left;">
+Total
+</th>
+<th style="text-align:left;">
+Geography
+</th>
+<th style="text-align:left;">
+ERP
+</th>
+<th style="text-align:left;">
+Offline
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;background-color: #a6bddb20;">
+MAE
+</td>
+<td style="text-align:left;background-color: #a6bddb20;">
+&lt; both scale means
+</td>
+<td style="text-align:left;background-color: #a6bddb20;">
+Complete
+</td>
+<td style="text-align:left;background-color: #a6bddb20;">
+All
+</td>
+<td style="text-align:left;background-color: #a6bddb20;">
+32
+</td>
+<td style="text-align:left;background-color: #a6bddb20;">
+30
+</td>
+<td style="text-align:left;background-color: #a6bddb20;">
+27
+</td>
+<td style="text-align:left;background-color: #a6bddb20;">
+29
+</td>
+</tr>
+<tr>
+<td style="text-align:left;background-color: #016c5920;">
+SUSE
+</td>
+<td style="text-align:left;background-color: #016c5920;">
+≥ either scale mean
+</td>
+<td style="text-align:left;background-color: #016c5920;">
+Ongoing
+</td>
+<td style="text-align:left;background-color: #016c5920;">
+Geography
+</td>
+<td style="text-align:left;background-color: #016c5920;">
+10
+</td>
+<td style="text-align:left;background-color: #016c5920;">
+9
+</td>
+<td style="text-align:left;background-color: #016c5920;">
+</td>
+<td style="text-align:left;background-color: #016c5920;">
+</td>
+</tr>
+</tbody>
+</table>
+<hr style="height:10px; visibility:hidden;" />
+<p><img src="Psychonomics_files/figure-html/location-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<hr style="height:10px; visibility:hidden;" />
+<div id="mainstream-american-english-listeners-are-sensitive-to-syntactic-variation-at-both-structure-building-early-an-and-integration-p600-levels-of-processing" class="section level2">
+<h2>Mainstream American English listeners are sensitive to syntactic variation at both structure-building <br>(early AN) and integration (P600) levels of processing</h2>
+<p><img src="Psychonomics_files/figure-html/erp-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<hr style="height:10px; visibility:hidden;" />
+</div>
+</div>
+<div id="offline-tasks" class="section level1">
+<h1>Offline tasks</h1>
+<hr style="height:10px; visibility:hidden;" />
+<p><img src="Psychonomics_files/figure-html/exposure-1.png" width="100%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="Psychonomics_files/figure-html/accpt-1.png" width="100%" style="display: block; margin: auto auto auto 0;" /></p>
+<font size=5>All error bars represent 95% confidence intervals</font>
+<hr style="height:10px; visibility:hidden;" />
+<table class="table" style="font-size: 30px; margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="border-bottom:hidden; padding-bottom:0; padding-left:3px;padding-right:3px;text-align: left; " colspan="7">
+<div style="border-bottom: 1px solid #ddd; padding-bottom: 5px;">
+Pairwise Pearson correlation matrix
+</div>
+</th>
+</tr>
+<tr>
+<th style="text-align:left;">
+Variables
+</th>
+<th style="text-align:left;">
+Acceptability
+</th>
+<th style="text-align:left;">
+Familiarity
+</th>
+<th style="text-align:left;">
+Intelligibility
+</th>
+<th style="text-align:left;">
+Exposure (DM)
+</th>
+<th style="text-align:left;">
+Exposure (SUSE)
+</th>
+<th style="text-align:left;">
+Culture
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Acceptability
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+0.50**
+</td>
+<td style="text-align:left;">
+0.54**
+</td>
+<td style="text-align:left;">
+0.53**
+</td>
+<td style="text-align:left;">
+0.36
+</td>
+<td style="text-align:left;">
+-0.08
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Familiarity
+</td>
+<td style="text-align:left;">
+0.50**
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+0.52**
+</td>
+<td style="text-align:left;">
+0.47**
+</td>
+<td style="text-align:left;">
+0.07
+</td>
+<td style="text-align:left;">
+0.20
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Intelligibility
+</td>
+<td style="text-align:left;">
+0.54**
+</td>
+<td style="text-align:left;">
+0.52**
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+0.35
+</td>
+<td style="text-align:left;">
+0.36
+</td>
+<td style="text-align:left;">
+0.12
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Exposure (DM)
+</td>
+<td style="text-align:left;">
+0.53**
+</td>
+<td style="text-align:left;">
+0.47**
+</td>
+<td style="text-align:left;">
+0.35
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+0.48**
+</td>
+<td style="text-align:left;">
+0.29
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Exposure (SUSE)
+</td>
+<td style="text-align:left;">
+0.36
+</td>
+<td style="text-align:left;">
+0.07
+</td>
+<td style="text-align:left;">
+0.36
+</td>
+<td style="text-align:left;">
+0.48**
+</td>
+<td style="text-align:left;">
+1
+</td>
+<td style="text-align:left;">
+0.37*
+</td>
+</tr>
+<tr>
+<td style="text-align:left;border-bottom: 5px solid #d7d8db">
+Culture
+</td>
+<td style="text-align:left;border-bottom: 5px solid #d7d8db">
+-0.08
+</td>
+<td style="text-align:left;border-bottom: 5px solid #d7d8db">
+0.20
+</td>
+<td style="text-align:left;border-bottom: 5px solid #d7d8db">
+0.12
+</td>
+<td style="text-align:left;border-bottom: 5px solid #d7d8db">
+0.29
+</td>
+<td style="text-align:left;border-bottom: 5px solid #d7d8db">
+0.37*
+</td>
+<td style="text-align:left;border-bottom: 5px solid #d7d8db">
+1
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; border: 0;" colspan="100%">
+<sup></sup> All pairwise correlations with centro-parietal P600 amplitude and language attitudes n.s. at <em>p</em> &lt; .05 level
+</td>
+</tr>
+</tfoot>
+</table>
+<hr style="height:10px; visibility:hidden;" />
+<p><img src="Psychonomics_files/figure-html/paraphrase-1.png" width="100%" style="display: block; margin: auto auto auto 0;" /></p>
+</div>
+<div id="results" class="section level1">
+<h1>Results</h1>
+<ul>
+<li>Biphasic response to syntactic variation transitions from anterior negativity to centro-parietal positivity
+<ul>
+<li>Early anterior negativity (early AN) suggests <strong>automatic detection</strong> of non-standard language</li>
+<li>Robust P600 effect reflects <strong>syntactic reanalysis</strong> for double modal sentences</li>
+</ul></li>
+<li>Likelihood of hearing attested double modals significantly <strong>higher</strong> than likelihood of saying them, but significantly <strong>lower</strong> than likelihood of hearing other Southern dialect features (e.g., negative concord)</li>
+<li>Familiarity with attested double modals significantly <strong>higher</strong> than unattested</li>
+<li>Attested double modals, especially <em>might could</em>, significantly <strong>easier</strong> to paraphrase than unattested double modals</li>
+</ul>
+</div>
+<div id="conclusion" class="section level1">
+<h1>Conclusion</h1>
+<ul>
+<li>Combining neurocognitive and linguistic methods reveals dynamic interactions among language exposure, use, and processing</li>
+<li>MAE listeners require additional neural resources during online processing of double modals but show successful integration offline</li>
+<li>SUSE listeners are expected to show enhanced processing for attested double modals compared to standard single modals</li>
+<li><strong>Future direction</strong>: studying SUSE speakers in their local communities with <em>The Brain Bus</em> (mobile EEG system)</li>
+</ul>
+</div>
+<div id="references-and-acknowledgements" class="section level1">
+<h1>References and acknowledgements</h1>
+<font size=3>
+<div id="refs">
+<div id="ref-hasty2012">
+<p>Hasty, J. D. (2012). We might should oughta take a second look at this: A syntactic re-analysis of double modals in Southern United States English. <em>Lingua</em>, <em>122</em>(14), 1716–1738.</p>
+</div>
+<div id="ref-mishoe1994">
+<p>Mishoe, M., &amp; Montgomery, M. (1994). The pragmatics of multiple modal variation in North and South Carolina. <em>American Speech</em>, <em>69</em>(1), 3–29.</p>
+</div>
+</div>
+<p></font></p>
+<img style="padding: 0 15px; float:left;" src="Logo_CLA_blue.png" width=30% height=30%>
+<div style="text-align: right">
+<font size=6>Holly Zaharchuk: <a href="mailto:hzaharchuk@psu.edu" class="email">hzaharchuk@psu.edu</a></font>
+</div>
+<div style="text-align: right">
+<font size=6>University Graduate Fellow (UGF)</font>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
