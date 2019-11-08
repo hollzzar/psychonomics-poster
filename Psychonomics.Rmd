@@ -429,4 +429,4 @@ ggplot(MAE_paraphrase_error, aes(modal, score,
 
 <font size=3><div id="refs"></div></font>
 
-<img style="padding: 0 15px; float:left;" src="/images/Logo_CLA_blue.png" width=30% height=30%> <div style="text-align: right"><font size=6>Holly Zaharchuk: hzaharchuk@psu.edu</font></div> <div style="text-align: right"><font size=6>University Graduate Fellow (UGF)</font></div>
+<img style="padding: 0 15px; float:left;" src="Logo_CLA_blue.png" width=30% height=30%> <div style="text-align: right"><font size=6>Holly Zaharchuk: hzaharchuk@psu.edu</font></div> <div style="text-align: right"><font size=6>University Graduate Fellow (UGF)</font></div>
