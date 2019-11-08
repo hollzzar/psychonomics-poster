@@ -1,0 +1,2 @@
+setwd("/Users/hollyzaharchuk/Mirror/DM_analysis_scripts/poster/Psychonomics_poster")
+pagedown::chrome_print("file://localhost/Users/hollyzaharchuk/Mirror/DM_analysis_scripts/poster/Psychonomics_poster/Psychonomics.html")
