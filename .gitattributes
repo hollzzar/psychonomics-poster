@@ -4,3 +4,5 @@
 #Change language classification
 *.R linguist-language=R
 *.Rmd linguist-language=R
+*.bib linguist-language=R
+*.csl linguist-language=R
