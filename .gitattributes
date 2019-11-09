@@ -6,3 +6,5 @@
 *.Rmd linguist-language=R
 *.bib linguist-language=R
 *.csl linguist-language=R
+*.png linguist-language=R
+*.pdf linguist-language=R
