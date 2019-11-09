@@ -9,7 +9,7 @@ In this repository, you will find:
 - The R script where I saved the commands to knit the HTML output into a PDF
 - The final PDF of the poster
 - My current bibliography for this research area
-- Various logos/images, as well as the map that I saved as a PNG from a separate R script to format it correctly for the poster in the images folder
+- Various logos/images, as well as the dialect exposure map that I saved as a PNG from a separate R script to format it correctly for the poster in the images folder
 - Plot/graph outputs from the R markdown file in the Psychonomics_files folder
 - The HTML template from @posterdown that I customized to achieve some of the formatting in the poster (e.g., adjusting the size of the logos in the title box, creating a new section title box with a different color, decreasing the size of the reference section); if you want to use this template, you need to find where you have @posterdown downloaded and put this in the resources folder instead of the original template
 
