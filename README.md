@@ -1,7 +1,7 @@
 # psychonomics-poster
 Psychonomics 2019 conference poster using posterdown
 
-I am presenting this poster at the 60th Annual Meeting of the Psychonomic Society in Montréal, Québec, Canada. This work is part of my Master's thesis on language processing and dialectal variation in syntax.
+I am presenting this poster at the 60th Annual Meeting of the Psychonomic Society in Montréal, Québec, Canada. This work will contribute to my Master's thesis on language processing and dialectal variation in syntax.
 
 In this repository, you will find:
 - My R markdown file for the poster
@@ -15,4 +15,4 @@ In this repository, you will find:
 
 I have included the abstract for my poster below.
 
-*Many speakers of Southern United States English use a verb construction called a **double modal**, which comprises two consecutive auxiliary verbs. For example, the sentence “She said we **might could** go Tuesday” combines the modals **might** and **could**, which is not standard in Mainstream American English (MAE). While previous sociolinguistic research has studied syntactic variation across American English, very little psycholinguistic research has explored the relationship between intralingual diversity and language processing. The present study used Event-Related Potential (ERP) analysis to investigate online auditory comprehension of double modals versus single modals in MAE listeners. Results revealed that double modals elicited an early left-anterior negativity (ELAN) followed by a P600 efect, which suggests that unfamiliar dialectal variation in syntax engages both automatic detection of deviations from standard word-category rules and sentence-level syntactic reanalysis. These fndings are interpreted in light of descriptive theories of language processing.*
+*Many speakers of Southern United States English use a verb construction called a **double modal**, which comprises two consecutive auxiliary verbs. For example, the sentence “She said we **might could** go Tuesday” combines the modals **might** and **could**, which is not standard in Mainstream American English (MAE). While previous sociolinguistic research has studied syntactic variation across American English, very little psycholinguistic research has explored the relationship between intralingual diversity and language processing. The present study used Event-Related Potential (ERP) analysis to investigate online auditory comprehension of double modals versus single modals in MAE listeners. Results revealed that double modals elicited an early left-anterior negativity (ELAN) followed by a P600 effect, which suggests that unfamiliar dialectal variation in syntax engages both automatic detection of deviations from standard word-category rules and sentence-level syntactic reanalysis. These fndings are interpreted in light of descriptive theories of language processing.*
