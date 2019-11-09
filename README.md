@@ -1,5 +1,5 @@
 # psychonomics-poster
-Psychonomics 2019 conference poster using posterdown
+Psychonomics 2019 conference poster using `posterdown_html`
 
 I am presenting this poster at the 60th Annual Meeting of the Psychonomic Society in Montréal, Québec, Canada. This work will contribute to my Master's thesis on language processing and dialectal variation in syntax.
 
@@ -11,7 +11,7 @@ In this repository, you will find:
 - My current bibliography for this research area
 - Various logos/images, as well as the dialect exposure map that I saved as a PNG from a separate R script to format it correctly for the poster in the images folder
 - Plot/graph outputs from the R markdown file in the Psychonomics_files folder
-- The HTML template from @posterdown that I customized to achieve some of the formatting in the poster (e.g., adjusting the size of the logos in the title box, creating a new section title box with a different color, decreasing the size of the reference section); if you want to use this template, you need to find where you have @posterdown downloaded and put this in the resources folder instead of the original template
+- The HTML template from `posterdown_html` that I customized to achieve some of the formatting in the poster (e.g., adjusting the size of the logos in the title box, creating a new section title box with a different color, decreasing the size of the reference section); if you want to use this template, you need to find where you have `posterdown_html` downloaded and put this in the resources folder instead of the original template
 
 I have included the abstract for my poster below.
 
