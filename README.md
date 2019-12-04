@@ -1,4 +1,4 @@
-# psychonomics-poster
+# Psychonomics 2019 poster
 Psychonomics 2019 conference poster using `posterdown_html`
 
 I am presenting this poster at the [60th Annual Meeting of the Psychonomic Society in Montréal, Québec, Canada](https://www.psychonomic.org/page/2019program). This work will contribute to my Master's thesis on language processing and dialectal variation in syntax.
